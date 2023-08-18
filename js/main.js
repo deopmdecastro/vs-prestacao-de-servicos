@@ -205,3 +205,9 @@
 
 })(jQuery);
 
+
+    document.getElementById('about').addEventListener('click', function() {
+      // Redireciona para a página 2
+      window.location.href = 'index.html#intro';
+    });
+
