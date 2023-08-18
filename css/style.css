@@ -310,11 +310,13 @@ h6 {
   margin: 10px;
   color: #fff;
   background: #D60000;
+  border: 2px solid #D60000;
 }
 
 #intro .btn-get-started:hover {
-  background: #fff;
+  background: transparent;
   color: #D60000;
+  border: 2px solid #D60000;
 }
 
 /*--------------------------------------------------------------
@@ -396,8 +398,7 @@ h6 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 13px;
-  text-transform: uppercase;
+  font-size: 15px;
   outline: none;
 }
 
@@ -1402,6 +1403,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"] {
   background: #D60000;
   border: 0;
+  border-radius: 50px;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
@@ -1409,7 +1411,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #be0202;
 }
 
 /*--------------------------------------------------------------
@@ -1541,6 +1543,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter p {
+  margin-bottom: 11px;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
