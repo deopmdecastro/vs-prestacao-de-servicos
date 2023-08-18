@@ -1596,6 +1596,32 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+
+  #footer .footer-top .footer-newsletter input[type="email"] {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+    border-radius: 0px;
+  }
+  
+  #footer .footer-top .footer-newsletter input[type="submit"] {
+    background: #D60000;
+    border: 0;
+    border-radius: 0px;
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  #footer .footer-top .footer-newsletter input[type="submit"]:hover {
+    background: #9c0202;
+    border: 0px;
+    border-radius: 0px;
+  }
+
 }
 
 @media (min-width: 992px) {
