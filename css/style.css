@@ -625,10 +625,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 20px;
 }
 
-#featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
-}
-
 #featured-services i {
   color: #D60000;
   font-size: 48px;
@@ -880,7 +876,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #D60000;
+  background: #ffffff;
+  color:#D60000 ;
   border: 2px solid #D60000;
 }
 
