@@ -747,6 +747,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 
+#services span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #D60000;
+}
+
 #services {
   background: #fff;
   background-size: cover;
