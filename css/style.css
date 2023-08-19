@@ -156,17 +156,10 @@ h6 {
 
 #header #logo {
   float: left;
+ 
+
 }
 
-#header #logo h1 {
-  font-size: 34px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
@@ -178,6 +171,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  align-items: center;
+  width: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -314,9 +309,9 @@ h6 {
 }
 
 #intro .btn-get-started:hover {
-  background: transparent;
+  background: #fff;
   color: #D60000;
-  border: 2px solid #D60000;
+  border: 2px solid #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -1446,6 +1441,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
+  margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   color: #eee;
 }
